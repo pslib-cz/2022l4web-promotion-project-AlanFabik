@@ -273,10 +273,13 @@ video {
 .about{
     margin-top: 9em;
     text-align: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
 }
 
 .about h2{
     font-size: 2.5em;
+    margin: 10px;
 }
 
 .about p{
@@ -287,7 +290,10 @@ video {
     background-color: #E00814;
     color: #fff;
     width: 330px;
-    margin: 3em;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .about_card-item img{
@@ -309,4 +315,80 @@ video {
         margin-top: 10em;
     }
 
+    h2{
+        font-size: 5px;
     }
+
+    }
+
+@media screen and (max-width: 460px) {
+    .about h2{
+        font-size: 35px;
+    }
+
+    .about{
+        margin-top: 7em;
+    }
+
+    }
+
+@media screen and (max-width: 350px) {
+    
+    .about{
+        margin-top: 0;
+    }
+
+    }
+
+/*REFERENCE*/
+.reference{
+    padding: 40px;
+    background-image: url(../photos/background.jpg);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reference_content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.reference_content-icon{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.reference_content-icon img{
+    width: 50px;
+}
+
+.reference_content-text{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+.reference_content-group{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.reference_content-profile{
+    display: flex;
+    justify-content: center;
+
+}
+
+.reference_content-profile img{
+    width: 100px;
+    margin-left: 30px;
+    border-radius: 100%;
+}
