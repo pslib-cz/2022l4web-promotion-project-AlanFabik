@@ -353,7 +353,7 @@ video {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width: 1000px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -370,25 +370,38 @@ video {
 .reference_content-text{
     font-size: 30px;
     font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 10px;
 }
-
-
 
 .reference_content-group{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
-    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .reference_content-profile{
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 
 .reference_content-profile img{
     width: 100px;
+    height: 100px;
     margin-left: 30px;
     border-radius: 100%;
 }
+
+@media screen and (max-width: 767px) {
+    
+    .reference_content-text{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    }
