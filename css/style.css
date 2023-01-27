@@ -415,7 +415,6 @@ video {
 .cena h2{
     font-size: 2.5em;
     margin: 20px;
-    align-items: center;
 }
 
 .cena_content{
@@ -471,6 +470,7 @@ video {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .cena_price-table{
@@ -508,3 +508,127 @@ video {
     }
 
     }
+
+/*KONTAKT*/
+
+.contact{
+    padding: 40px;
+    background-image: url(../photos/background2.jpg);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact h2{
+    font-size: 2.5em;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact_content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.contact_content-map iframe{
+    width: 500px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.contact_content-info{
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact_content-info p{
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+
+.contact_content-info a{
+    color: #fff;
+    background-color:#E00814;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    
+}
+
+.contact_content-info .gap{
+    margin-top: 50px;
+}
+
+.contact_content-info a:hover{
+    background-color: #a7010a;
+}
+
+@media screen and (max-width: 720px) {
+    
+    .contact_content-map iframe{
+        width: 400px;
+        height: 500px;
+        margin-left: 10px;
+        margin-right: 10px;
+    } 
+    
+    .contact_content-info p{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .contact_content-map iframe{
+        width: 300px;
+        height: 400px;
+    } 
+    
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #E00814;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer_logo{
+    margin: 0 40px;
+}
+
+.footer_contact{
+    text-align: center;
+    margin: 0 40px;
+}
+
+.footer_contact h3{
+    margin-top: 20px;
+}
+
+.footer_contact-group{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_contact-group-item{
+    margin: 10px;
+}
+
+.footer_rights{
+    margin: 0 40px;
+}
